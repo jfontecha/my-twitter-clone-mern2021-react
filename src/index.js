@@ -8,10 +8,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import App from './components/App';
+import Home from './components/Home';
 
 ReactDOM.render(<HashRouter>
   <div>
     <Route exact path="/" component={App} />
+    <Route path="/home" component={Home} />
   </div>
 </HashRouter >, document.getElementById('root'));
 
